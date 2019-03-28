@@ -6,5 +6,3 @@
   }
   @return (strip-unit($px) / strip-unit($base)) * 1em;
 }
-
-@warn 'em()';
