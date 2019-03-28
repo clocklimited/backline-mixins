@@ -4,6 +4,12 @@
 # editor
 .vscode
 
+# development
+.prettierrc
+.prettierignore
+.stylintrc.json
+README.md
+
 # testing
 /test
 
