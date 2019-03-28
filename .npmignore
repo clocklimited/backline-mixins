@@ -10,6 +10,10 @@
 .stylintrc.json
 README.md
 
+# documentation
+/docs
+.sassdocrc
+
 # testing
 /test
 
