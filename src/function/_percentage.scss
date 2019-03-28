@@ -1,0 +1,6 @@
+@function percentage($decimal) {
+  @if ($decimal == 0) {
+    @return 0;
+  }
+  @return $decimal * 100 + 0%;
+}
