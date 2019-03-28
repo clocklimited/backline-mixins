@@ -1,12 +1,12 @@
 {
   "name": "backline-mixins",
   "version": "1.0.0",
-  "description": "",
-  "author": "A collection of useful SCSS mixins",
+  "description": "A collection of useful SCSS mixins",
+  "author": "Jack Brewer",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackbrewer/stylus-mixins"
+    "url": "https://github.com/clocklimited/backline-mixins"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
