@@ -1,0 +1,25 @@
+{
+  "name": "backline-mixins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "run-p qa:**",
+    "qa:test": "jest",
+    "qa:css": "stylelint \"src/**/*.scss\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "node-sass": "^4.11.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.16.4",
+    "sass-true": "^4.0.0",
+    "stylelint": "^9.10.1",
+    "stylelint-config-prettier": "^5.0.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-scss": "^3.5.4"
+  },
+  "dependencies": {}
+}
