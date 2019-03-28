@@ -7,7 +7,7 @@
     @include assert {
       @include output {
         .element {
-          @include clearfix();
+          @include clearfix;
         }
       }
       @include expect {
