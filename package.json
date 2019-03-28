@@ -2,14 +2,22 @@
   "name": "backline-mixins",
   "version": "1.0.0",
   "description": "",
+  "author": "A collection of useful SCSS mixins",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackbrewer/stylus-mixins"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
   "main": "index.js",
   "scripts": {
     "test": "run-p qa:**",
     "qa:test": "jest",
     "qa:css": "stylelint \"src/**/*.scss\""
   },
-  "author": "",
-  "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
     "jest": "^24.5.0",
     "node-sass": "^4.11.0",
@@ -20,6 +28,5 @@
     "stylelint-config-prettier": "^5.0.0",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-scss": "^3.5.4"
-  },
-  "dependencies": {}
+  }
 }
