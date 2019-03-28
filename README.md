@@ -46,3 +46,14 @@ Clone this repo and install dependencies. All styles have test coverage and Pret
 ```sh
 yarn test
 ```
+
+### Updateing docs
+
+This project uses [SassDoc](http://sassdoc.com/) to generate documentation using documentation-specific comments.
+
+To regenerate documentation, run:
+
+```sh
+yarn docs
+```
+
