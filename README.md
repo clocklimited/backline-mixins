@@ -1,5 +1,7 @@
 # Backline Mixins
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/clocklimited/backline-mixins.svg)](https://greenkeeper.io/)
+
 A scss port of [stylus-mixins](https://github.com/jackbrewer/stylus-mixins), with some added features and modernisation.
 
 TODO:
