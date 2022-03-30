@@ -37,6 +37,12 @@ Import backline-mixins in each `.scss` as required
 @import 'backline-mixins';
 ```
 
+## Changelog
+
+v2.0.0 removes use of / as division operator. Replaces with math.div().
+
+As of v2.0.0 backline-mixins requires dart sass 1.23.0+ to work correctly. SASS:Math (and therefore math:div) is not available in Lib or Ruby SASS, and not on Dart before 1.23.0.
+
 ## Development
 
 Clone this repo and install dependencies. All styles have test coverage and Prettier formatting to ensure everything works as expected.
