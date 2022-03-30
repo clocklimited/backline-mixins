@@ -1,5 +1,5 @@
 {
-  "name": "backline-mixins",
+  "name": "@clocklimited/backline-mixins",
   "version": "1.0.3",
   "description": "A collection of useful SCSS mixins",
   "author": "Jack Brewer",
