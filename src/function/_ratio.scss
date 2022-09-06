@@ -2,5 +2,5 @@
   @if ($denominator == 0) {
     @return 0;
   }
-  @return $numerator / $denominator;
+  @return math.div($numerator, $denominator);
 }

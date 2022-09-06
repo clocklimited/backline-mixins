@@ -5,7 +5,7 @@
     @return 0;
   }
   @if $base {
-    @return (($val * strip-unit($base)) / 1000) * 1px;
+    @return math.div(($val * strip-unit($base)), 1000) * 1px;
   }
-  @return ($val / 1000) * 1em;
+  @return math.div($val, 1000) * 1em;
 }
